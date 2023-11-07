@@ -6,8 +6,9 @@ Table of Contents
 * Usage
 * Results
 * License
-##Introduction##
-Tumor Image Classification is a project that aims to automatically classify medical images of the brain into two categories: images with "no_tumor" and images with "pituitary_tumor." The project involves preprocessing the image data, splitting it into training and testing sets, training machine learning models, and evaluating the model's performance.
+  
+## Introduction
+Tumor Image Classification is a project that aims to automatically classify medical images of the brain into two categories: images with "no tumor" and images with "pituitary tumor." The project involves preprocessing the image data, splitting it into training and testing sets, training machine learning models, and evaluating the model's performance.
 
 ## Data
 The data used in this project is stored in the /content/drive/MyDrive/Projecttt/Training directory. The images are divided into two classes: "no_tumor" and "pituitary tumor." The data is loaded and preprocessed using OpenCV to ensure it is ready for machine learning.
@@ -15,7 +16,7 @@ The data used in this project is stored in the /content/drive/MyDrive/Projecttt/
 ## Usage
 To use this project, follow these steps:
 
-##Clone the repository:##
+## Clone the repository:
 bash
 Copy code
 git clone https://github.com/your-username/your-repo.git
@@ -29,10 +30,10 @@ Train and evaluate the classification models. The project uses a logistic regres
 
 Visualize the results. The code includes code snippets for visualizing the classification results using matplotlib.
 
-##Results##
+## Results
 The project provides training and testing scores for the classification models. Additionally, there are visualizations of test images and their corresponding classifications.
 
-##Sample output:##
+## Sample output:
 
 Training Score: 1.0
 Testing Score: 0.9681274900398407
@@ -40,7 +41,7 @@ Total Misclassified Samples: 13
 
 These results indicate the accuracy of the models and the number of misclassified samples in the testing dataset.
 
-##License##
+## License
 This project is licensed under the MIT License. You are free to use and modify the code for your own purposes. Please review the LICENSE file for more details.
 
 Feel free to contribute to this project by improving the code, adding new features, or enhancing the documentation. If you have any questions or suggestions, please open an issue or contact the project maintainers.
