@@ -9,10 +9,10 @@ Table of Contents
 ##Introduction##
 Tumor Image Classification is a project that aims to automatically classify medical images of the brain into two categories: images with "no_tumor" and images with "pituitary_tumor." The project involves preprocessing the image data, splitting it into training and testing sets, training machine learning models, and evaluating the model's performance.
 
-##Data##
+## Data
 The data used in this project is stored in the /content/drive/MyDrive/Projecttt/Training directory. The images are divided into two classes: "no_tumor" and "pituitary tumor." The data is loaded and preprocessed using OpenCV to ensure it is ready for machine learning.
 
-##Usage##
+## Usage
 To use this project, follow these steps:
 
 ##Clone the repository:##
